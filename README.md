@@ -121,13 +121,6 @@ GitHub: `github.com/dltkdwns0730`
 - **Certifications**: 정보처리기사, 빅데이터분석기사, ADsP
 - **Language**: TOEIC 920, OPIc IH
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dltkdwns0730&show_icons=true&theme=default&hide_border=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dltkdwns0730&layout=compact&theme=default&hide_border=true" height="165" />
-</p>
-
 ---
 
 모델 성능을 넘어서, 서비스 구조와 운영 효율까지 책임지는 엔지니어를 지향합니다.
