@@ -86,7 +86,7 @@
 
 ---
 
-#### 3. Fearless — 라이브 커머스 실시간 상품 추천
+#### 3.  커머스 실시간 상품 추천
 
 > AWS IVS + Rekognition + Lambda + DynamoDB | 캡스톤 프로젝트
 
