@@ -69,7 +69,9 @@
 - 비동기 파이프라인 설계 + Docker → GCP Cloud Run 배포 자동화
 - Summarizer 지연시간 45s → 17.9s (**-60.2%**), 캡처 F1 0.77 → 0.97
 
-🔗 [Repo](https://github.com/dltkdwns0730/Re-View) · 📄 [Architecture Docs](https://github.com/dltkdwns0730/Re-View/blob/feature/architecture-improvement/docs/architecture-improvement.md)
+<a href="https://github.com/dltkdwns0730/Re-View"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
+<a href="https://artistic-myrtle-971.notion.site/ReView-2f528309d08d805faa97d032c01a260d"><img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white"/></a>
+<a href="https://github.com/dltkdwns0730/Re-View/blob/feature/architecture-improvement/docs/architecture-improvement.md"><img src="https://img.shields.io/badge/Architecture_Docs-2088FF?style=flat-square&logo=readthedocs&logoColor=white"/></a>
 
 ---
 
@@ -82,7 +84,8 @@
 - GPS + EXIF 메타데이터 검증 → 부정 사진 **95% 차단**
 - LangGraph 3-Role 멀티에이전트 + GPT-4o-mini 힌트 생성
 
-🔗 [Repo](https://github.com/dltkdwns0730/PAZULE)
+<a href="https://github.com/dltkdwns0730/PAZULE"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
+<a href="https://artistic-myrtle-971.notion.site/2f528309d08d80ffb5f3ec0977fb2854"><img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white"/></a>
 
 ---
 
@@ -93,17 +96,18 @@
 - AWS 서버리스 파이프라인: 스트림 캡처 → 상품 인식 → 실시간 오버레이 (**5초 이내**)
 - Rekognition 90% 신뢰도 필터링, IVS Metadata 뷰어 동기화
 
-*(Repository 업데이트 예정)*
+<a href="https://artistic-myrtle-971.notion.site/2f628309d08d8075bba5eee8ab9cfc7b"><img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/GitHub-Coming_Soon-555555?style=flat-square&logo=github&logoColor=white"/>
 
 ---
 
 #### 🏆 Boostcamp AI Competitions
 
-| 대회 | 핵심 접근 | 성과 |
-|------|----------|------|
-| Hand Bone Segmentation | Hausdorff Loss + Cut&Fill | Dice **0.9546** |
-| Object Detection | DDQ + Pseudo Labeling | mAP **0.711** |
-| Sentiment Analysis | 6단계 반복 개선 (TAPT + 앙상블) | F1 **83.12%** |
+| 대회 | 핵심 접근 | 성과 | Links |
+|------|----------|------|-------|
+| Hand Bone Segmentation | Hausdorff Loss + Cut&Fill | Dice **0.9546** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dltkdwns0730/pro-cv-semanticsegmentation-cv-02) [![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)](https://artistic-myrtle-971.notion.site/Hand-Bone-Image-Segmentation-2f528309d08d803482dde529f91f75ed) |
+| Object Detection | DDQ + Pseudo Labeling | mAP **0.711** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dltkdwns0730/pro-cv-objectdetection-cv-02) [![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)](https://artistic-myrtle-971.notion.site/Trash-Detection-2c928309d08d80e998b3c4273a990586) |
+| Sentiment Analysis | 6단계 반복 개선 (TAPT + 앙상블) | F1 **83.12%** | [![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)](https://artistic-myrtle-971.notion.site/2f528309d08d8054aa88c91d54cae9f7) |
 
 ---
 
