@@ -7,7 +7,6 @@
   <br/>
 
   <b>AI 서비스의 비용 효율적 파이프라인 설계부터 배포까지, 문제를 끝까지 해결하는 엔지니어</b><br/>
-  <sub>End-to-end AI pipeline engineer focused on cost-efficient, production-ready solutions</sub>
 
   <br/><br/>
 
