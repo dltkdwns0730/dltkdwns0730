@@ -1,83 +1,111 @@
-<div align="center">
-  <h1>이상준 | AI / Backend Engineer</h1>
-  <p><b>실험으로 병목을 찾고, 구조로 성능과 비용을 개선하며, AI 기능을 서비스로 연결합니다.</b></p>
-  <p>모델 성능 개선에서 시작해 백엔드, 배포, 아키텍처까지 함께 설계하는 엔지니어로 성장하고 있습니다.</p>
+# 이상준 | AI / Backend Engineer
 
-  <a href="mailto:dltkdwns0730@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/sangjun-lee-3913493a7/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/dltkdwns0730">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=dltkdwns0730&style=flat-square&color=blue" alt="profile views" />
-</div>
+실험으로 병목을 찾고, 구조로 성능과 비용을 개선하며, AI 기능을 서비스로 연결합니다.
+
+Contact: `dltkdwns0730@gmail.com`  
+LinkedIn: `linkedin.com/in/sangjun-lee-3913493a7`  
+GitHub: `github.com/dltkdwns0730`
 
 ---
 
-## At a Glance
+## What I Value
 
-- **비용 최적화**: Re:View에서 **VLM API 호출 60% 절감**, PAZULE에서 **GPU 메모리 50% 절감**
-- **성능 개선**: Summarizer **45s → 17.9s**, Capture F1 **0.77 → 0.97**
-- **서비스화 경험**: FastAPI/Flask, LangGraph, Docker, Cloud Run, AWS Serverless
-- **일하는 방식**: 데이터와 병목을 먼저 해석하고, 단일 변수 중심 실험으로 개선 효과를 검증
+- **가치관**: 좋은 결과는 좋은 모델 하나보다, 문제를 정확히 정의하고 검증 가능한 가설로 쪼개는 과정에서 나온다고 믿습니다.
+- **성장 목표**: 모델 성능 개선 경험을 출발점으로, 이제는 백엔드, 배포, 비용, 운영 효율까지 함께 책임지는 AI/Backend Engineer로 성장하고 있습니다.
+- **성취**: Competition에서는 Dice **0.9546**, mAP **0.711**, Macro F1 **83.12%**를 만들었고, Service에서는 VLM API 호출 **60% 절감**, GPU 메모리 **50% 절감**, 실시간 처리 **5초 이내**를 구현했습니다.
+- **팀워크**: Git-flow, PR 리뷰, WandB, Notion 기록 규칙을 맞추고, 트러블슈팅 로그와 실험 인사이트를 문서화해 팀 전체의 시행착오를 줄이는 방식으로 협업합니다.
+- **성격**: 문제가 생기면 감으로 밀어붙이기보다 로그와 실패 케이스로 원인을 좁히고, 배운 점을 다음 프로젝트의 설계 원칙으로 연결하는 편입니다.
 
-## Growth Journey
+## Project Map
 
-### 1. 실험을 설계하고 성능을 개선하는 법을 배웠습니다.
+### Service
 
-부스트캠프 대회와 모델 실험을 통해, 감으로 모델을 바꾸기보다 데이터와 실패 케이스를 먼저 해석하는 습관을 만들었습니다.
+- [Re:View](#project-service-review): 강의 영상을 독립형 노트로 바꾸는 멀티모달 AI 서비스입니다. 설계 목적은 STT, VLM, 요약 파이프라인을 실제 사용자 가치와 비용 효율로 연결하는 것입니다.
+- [PAZULE](#project-service-pazule): 파주 출판단지 체험형 보물찾기 서비스입니다. 설계 목적은 검증, 힌트 생성, 응답 포맷을 멀티에이전트 구조로 분리해 사용자 경험을 설계하는 것입니다.
+- [Live Commerce](#project-service-live-commerce): 실시간 상품 인식 기반 라이브 커머스 서비스입니다. 설계 목적은 100% Serverless로 낮은 운영 부담의 실시간 추천 파이프라인을 만드는 것입니다.
 
-- Hand Bone Segmentation: Hausdorff Loss + Cut&Fill로 **Dice 0.9546**
-- Object Detection: DDQ + Pseudo Labeling 기반 반복 개선으로 **mAP 0.711**
-- Sentiment Analysis: TAPT + 앙상블 + 6단계 실험 반복으로 **F1 83.12%**
+### Competition
 
-### 2. AI 기능을 사용자 경험으로 연결하는 법을 익혔습니다.
+- [Hand Bone Segmentation](#project-competition-hand-bone): Hand Bone X-ray에서 29개 뼈를 분할하는 프로젝트입니다. 목표는 **Dice**를 높이되, Domain Shift를 반영하는 신뢰 가능한 검증 기준을 함께 설계하는 것이었습니다.
+- [Object Detection](#project-competition-object-detection): 쓰레기 객체 검출 프로젝트입니다. 목표는 **mAP** 향상이며, 변인 통제 기반 실험으로 탐지 파이프라인을 단계적으로 고도화하는 데 집중했습니다.
 
-모델 성능 자체보다, 사용자가 체감하는 흐름과 검증 로직이 더 중요하다는 점을 프로젝트를 통해 배웠습니다.
+### Experiment
 
-- **PAZULE**: CLIP, BLIP, LangGraph를 결합한 관광 체험형 서비스 구현
-- **라이브 커머스 추천**: AWS Serverless 기반 실시간 상품 인식 파이프라인 설계
-- 결과적으로 AI 기능을 단일 모델이 아니라 제품 흐름 안에서 설계하는 관점을 갖게 되었습니다.
+- [Sentiment Analysis](#project-experiment-sentiment): 네이버 영화 리뷰 4단계 감정 분류 프로젝트입니다. 목표는 **Macro F1** 향상이며, 클래스 불균형과 도메인 적응 문제를 함께 해결하는 방향으로 모델링했습니다.
 
-### 3. 이제는 비용과 아키텍처까지 함께 설계합니다.
+## Project Details
 
-최근에는 "모델이 동작한다"를 넘어서, 비용, 응답속도, 배포 구조까지 함께 개선하는 방향으로 성장하고 있습니다.
+### Service
 
-- **Re:View**에서 ORB + pHash로 중복 슬라이드를 제거해 **VLM API 호출 60% 절감**
-- Summarizer 지연시간을 **45s → 17.9s**로 단축하고 Capture F1을 **0.77 → 0.97**로 개선
-- 모놀리스에서 **6개 서비스 분산 전환안**을 설계하며 Redis, Kafka 기반 아키텍처 개선 문서화
+<a id="project-service-review"></a>
+#### Re:View
+> Service | 5인 팀 | 목표: 강의 영상에서 독립형 강의 노트 자동 생성 + 챗봇 튜터 구현
 
-## Representative Projects
+- **역할**: 캡처 파이프라인 최적화, 백엔드 API 및 비동기 처리 구조 설계, 오디오 처리 개선, 아키텍처 개선안 문서화
+- **문제 발생**: Whisper의 한국어 인식률이 낮았고, 슬라이드 중복 캡처가 비용과 지연시간을 키웠으며, 모놀리스 구조는 확장성 한계가 있었습니다.
+- **문제 정의**: 한국어 강의 환경에서는 STT 정확도와 슬라이드 중복 제어가 곧 품질과 비용 문제로 이어졌고, 파이프라인 구조 역시 서비스화 관점에서 재설계가 필요했습니다.
+- **문제 해결**: Clova Speech 중심의 STT Router Pattern을 설계하고, ORB + pHash 기반 2단계 중복 제거 로직을 구현했으며, 비동기 처리 흐름과 6개 서비스 분산 전환안을 설계했습니다.
+- **성과**: Clova WER **6%**, VLM API 호출 **60% 절감**, Summarizer 지연시간 **45s → 17.9s**, Capture F1 **0.77 → 0.97**
+- **자세히**: [GitHub](https://github.com/dltkdwns0730/Re-View) | [Notion](https://artistic-myrtle-971.notion.site/ReView-2f528309d08d805faa97d032c01a260d) | [Architecture Docs](https://github.com/dltkdwns0730/Re-View/blob/feature/architecture-improvement/docs/architecture-improvement.md)
 
-### Re:View | 멀티모달 AI 강의 노트 자동 생성
-> FastAPI + LangGraph + Gemini Flash | 5인 팀 | AI & Backend Infra | 198 commits
+<a id="project-service-pazule"></a>
+#### PAZULE
+> Service | 5인 팀 | 파주시장상 수상 | 목표: AI 기반 파주 출판단지 랜드마크 보물찾기 게임 개발
 
-강의 영상의 음성과 슬라이드를 함께 해석해, 영상 없이도 이해 가능한 독립형 노트를 만드는 서비스입니다.
+- **역할**: 백엔드 리드, AI 검증 파이프라인 설계, LangGraph 멀티에이전트 구조 설계, 모델 경량화, GPS/EXIF 메타데이터 검증 로직 구현
+- **문제 발생**: BLIP, CLIP, GPT-4o-mini 등 여러 AI 모듈이 하나의 사용자 흐름 안에 엮여 있었고, 단일 코드 구조로는 검증 로직과 힌트 생성 흐름을 관리하기 어려웠습니다.
+- **문제 정의**: 사용자 입력 검증, 정답 판별, 힌트 생성, 응답 포맷을 분리하지 않으면 서비스 품질과 개발 생산성이 모두 떨어지는 구조였습니다.
+- **문제 해결**: Security, Tech, Design Agent로 역할을 나눈 LangGraph 구조를 설계했고, BLIP VQA, CLIP 감성 분석, GPT-4o-mini 힌트 생성기를 조합한 듀얼 AI 미션 체계를 구현했습니다.
+- **성과**: 파주시장상 수상, BLIP FP16 적용으로 **GPU 메모리 50% 절감**, CLIP SDPA 적용으로 **추론 속도 37.5% 향상**, GPS + EXIF 검증으로 **부정 사진 95% 차단**
+- **자세히**: [GitHub](https://github.com/dltkdwns0730/PAZULE_AGENT) | [Notion](https://artistic-myrtle-971.notion.site/2f528309d08d80ffb5f3ec0977fb2854)
 
-- **Role**: 캡처 파이프라인 최적화, 백엔드 API 및 비동기 처리 구조 설계, 배포 자동화, 아키텍처 개선안 문서화
-- **Impact**: VLM API 호출 **60% 절감**, Summarizer 지연시간 **45s → 17.9s**, Capture F1 **0.77 → 0.97**
-- **Links**: [GitHub](https://github.com/dltkdwns0730/Re-View) | [Notion](https://artistic-myrtle-971.notion.site/ReView-2f528309d08d805faa97d032c01a260d) | [Architecture Docs](https://github.com/dltkdwns0730/Re-View/blob/feature/architecture-improvement/docs/architecture-improvement.md)
+<a id="project-service-live-commerce"></a>
+#### Live Commerce
+> Service | 캡스톤 프로젝트 | 목표: 실시간 라이브 스트리밍 중 상품 자동 인식 및 구매 링크 제공
 
-### PAZULE | AI 기반 파주 관광 체험 플랫폼
-> Flask + CLIP/BLIP + LangGraph Multi-Agent | 5인 팀 | Backend Lead | 파주시장상 수상
+- **역할**: 전체 시스템 설계 및 구현
+- **문제 발생**: 라이브 영상에서 상품을 감지하고 사용자 화면에 반영하기까지의 흐름이 지연되면, 추천 기능 자체가 사용성을 잃는 구조였습니다.
+- **문제 정의**: 실시간성 확보와 운영 단순화를 동시에 만족시키기 위해서는 서버 관리 부담이 적고 이벤트 기반으로 연결되는 구조가 필요했습니다.
+- **문제 해결**: AWS IVS, S3, Lambda, Rekognition, DynamoDB, IVS Metadata를 연결한 Event-Driven Serverless 파이프라인을 설계하고, Confidence 기준과 중복 방지 로직을 추가했습니다.
+- **성과**: 전체 처리 **5초 이내**, **100% Serverless** 아키텍처 구현, Confidence **80% → 90%** 조정으로 오탐 최소화
+- **자세히**: [Notion](https://artistic-myrtle-971.notion.site/2f628309d08d8075bba5eee8ab9cfc7b)
 
-사용자 사진을 바탕으로 장소와 감성을 검증하고, 실패 시 힌트를 생성하는 체험형 관광 서비스입니다.
+### Competition
 
-- **Role**: 백엔드 리드, AI 검증 파이프라인 설계, 모델 경량화, GPS/EXIF 메타데이터 검증 로직 구현
-- **Impact**: BLIP FP16 적용으로 **GPU 메모리 50% 절감**, CLIP Scaled Attention으로 **추론 속도 37.5% 향상**, GPS + EXIF 검증으로 **부정 사진 95% 차단**
-- **Links**: [GitHub](https://github.com/dltkdwns0730/PAZULE_AGENT) | [Notion](https://artistic-myrtle-971.notion.site/2f528309d08d80ffb5f3ec0977fb2854)
+<a id="project-competition-hand-bone"></a>
+#### Hand Bone Segmentation
+> Competition | 6인 팀 | 목표: Hand Bone X-ray 29개 뼈 Semantic Segmentation | Metric: Dice
 
-### 라이브 커머스 실시간 상품 추천
-> AWS IVS + Rekognition + Lambda + DynamoDB | 캡스톤 프로젝트
+- **역할**: EDA 기반 문제 정의, 데이터 재설계, 검증 지표 설계, 학습 전략 수립, 후처리 파이프라인 설계
+- **문제 발생**: Train은 Open 손 비율이 높고 Test는 Folded 손 비율이 높아 Domain Shift가 컸으며, 2048 해상도 학습 시 OOM과 라벨 품질 문제도 존재했습니다.
+- **문제 정의**: 리더보드 점수만 따라가면 실제 Test 분포를 반영하지 못했고, 손목 overlap과 Folded 데이터 부족을 반영하는 검증 기준이 필요했습니다.
+- **문제 해결**: TVS(Trustworthy Validation Score)를 설계하고, LL → RR 반전과 Carpal Bone crop으로 표본 다양성을 확보했으며, FP16 + Gradient Accumulation과 Cut & Fill 후처리를 적용했습니다.
+- **성과**: Dice **0.9071 → 0.9546 (+5.2%p)**, Private **7위**, 경계 밖 픽셀 평균 **15.92% 감소**
+- **자세히**: [GitHub](https://github.com/dltkdwns0730/pro-cv-semanticsegmentation-cv-02) | [Notion](https://artistic-myrtle-971.notion.site/Hand-Bone-Image-Segmentation-2f528309d08d803482dde529f91f75ed)
 
-라이브 스트리밍 화면에 등장한 상품을 감지해, 상품 정보와 구매 흐름을 실시간으로 연결하는 서버리스 서비스입니다.
+<a id="project-competition-object-detection"></a>
+#### Object Detection
+> Competition | 팀 프로젝트 | 목표: 쓰레기 이미지 객체 검출 및 분류 | Metric: mAP
 
-- **Role**: 전체 시스템 설계 및 구현
-- **Impact**: 이벤트 기반 서버리스 파이프라인으로 전체 처리 **5초 이내**, 신뢰도 기준 조정으로 오탐 이슈 완화
-- **Links**: [Notion](https://artistic-myrtle-971.notion.site/2f628309d08d8075bba5eee8ab9cfc7b)
+- **역할**: DDQ 모델 단계적 개선, ViTDet 트러블슈팅 공유, 변인 통제 기반 실험 설계
+- **문제 발생**: Transformer 계열 모델은 V100 환경에서 메모리 제약이 컸고, 단일 기법으로는 성능이 정체되었으며, 증강 기법 역시 모델별 호환성이 달랐습니다.
+- **문제 정의**: 실험 우선순위를 명확히 하지 않으면 개선 효과를 분리하기 어렵고, 메모리 제약을 해결하지 못하면 고성능 모델 실험 자체가 불가능했습니다.
+- **문제 해결**: Batch Size와 Mixed Precision 조합으로 학습을 안정화하고, DDQ에 LSJ와 Pseudo Labeling을 단계적으로 적용했으며, TTA와 증강 기법의 순수 효과를 분리 검증했습니다.
+- **성과**: DDQ 성능 **0.684 → 0.711 (+3.9%)**, DINO Swin-L **0.7006**, 팀 내 Transformer 실험 진입 장벽 완화
+- **자세히**: [GitHub](https://github.com/dltkdwns0730/pro-cv-objectdetection-cv-02) | [Notion](https://artistic-myrtle-971.notion.site/Trash-Detection-2c928309d08d80e998b3c4273a990586)
+
+### Experiment
+
+<a id="project-experiment-sentiment"></a>
+#### Sentiment Analysis
+> Experiment | 목표: 네이버 영화 리뷰 4단계 감정 분류 | Metric: Macro F1
+
+- **역할**: 클래스 불균형 대응 전략 수립, TAPT 적용, 출력 레이어 개선, 키워드 기반 가중치 설계
+- **문제 발생**: Class 1 비율이 **9.7%**로 매우 낮았고, LLM 증강 데이터 품질 편차와 하이퍼파라미터 탐색 비용이 함께 존재했습니다.
+- **문제 정의**: 단순 Under-sampling이나 Grid Search로는 클래스 불균형과 도메인 적응 문제를 동시에 해결하기 어려웠습니다.
+- **문제 해결**: Focal Loss와 감정 키워드 가중치를 적용하고, 영화 리뷰 도메인 TAPT를 수행했으며, WandB Sweep 기반 Random Search와 MLP Head 확장을 적용했습니다.
+- **성과**: Macro F1 **78.5% → 83.12%**, Class 1 성능 유의미한 개선, 탐색 효율 향상
+- **자세히**: [Notion](https://artistic-myrtle-971.notion.site/2f528309d08d8054aa88c91d54cae9f7)
 
 ## Tech Focus
 
@@ -102,6 +130,4 @@
 
 ---
 
-<div align="center">
-  <sub>모델 성능을 넘어서, 서비스 구조와 운영 효율까지 책임지는 엔지니어를 지향합니다.</sub>
-</div>
+모델 성능을 넘어서, 서비스 구조와 운영 효율까지 책임지는 엔지니어를 지향합니다.
