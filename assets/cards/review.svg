@@ -1,0 +1,27 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="520" rx="28" fill="#0B1220"/>
+  <rect x="36" y="36" width="132" height="40" rx="20" fill="#12324A"/>
+  <text x="102" y="61" fill="#7DD3FC" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="700" text-anchor="middle">SERVICE</text>
+  <text x="52" y="140" fill="white" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="64" font-weight="700">Re:View</text>
+  <text x="52" y="188" fill="#94A3B8" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="28" font-weight="500">Lecture video to multimodal AI notes</text>
+
+  <rect x="52" y="244" width="276" height="74" rx="18" fill="#101A2C" stroke="#1E293B"/>
+  <text x="80" y="277" fill="#7DD3FC" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700">VLM Calls</text>
+  <text x="80" y="303" fill="white" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="28" font-weight="700">-60%</text>
+
+  <rect x="352" y="244" width="340" height="74" rx="18" fill="#101A2C" stroke="#1E293B"/>
+  <text x="380" y="277" fill="#7DD3FC" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700">Latency</text>
+  <text x="380" y="303" fill="white" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="28" font-weight="700">45s -&gt; 17.9s</text>
+
+  <rect x="716" y="244" width="432" height="74" rx="18" fill="#101A2C" stroke="#1E293B"/>
+  <text x="744" y="277" fill="#7DD3FC" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700">Capture F1</text>
+  <text x="744" y="303" fill="white" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="28" font-weight="700">0.77 -&gt; 0.97</text>
+
+  <text x="52" y="386" fill="#E2E8F0" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="26" font-weight="600">FastAPI · LangGraph · Clova Speech · OpenCV · GCP Cloud Run</text>
+  <text x="52" y="440" fill="#64748B" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="500">Problem framing · async pipeline · capture optimization · architecture improvement</text>
+
+  <circle cx="1060" cy="112" r="56" fill="#0F2740"/>
+  <circle cx="1060" cy="112" r="22" fill="#38BDF8"/>
+  <path d="M1000 372C1034 324 1086 300 1148 300" stroke="#1E3A5F" stroke-width="10" stroke-linecap="round"/>
+  <path d="M980 420C1044 362 1118 340 1160 342" stroke="#0EA5E9" stroke-width="10" stroke-linecap="round"/>
+</svg>

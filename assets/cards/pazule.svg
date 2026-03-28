@@ -1,0 +1,31 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="520" rx="28" fill="#0E1726"/>
+  <rect x="36" y="36" width="118" height="40" rx="20" fill="#16352C"/>
+  <text x="95" y="61" fill="#6EE7B7" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="700" text-anchor="middle">SERVICE</text>
+  <rect x="168" y="36" width="104" height="40" rx="20" fill="#3A2A0F"/>
+  <text x="220" y="61" fill="#FBBF24" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="700" text-anchor="middle">AWARD</text>
+
+  <text x="52" y="140" fill="white" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="64" font-weight="700">PAZULE</text>
+  <text x="52" y="188" fill="#94A3B8" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="28" font-weight="500">AI landmark treasure hunt service</text>
+
+  <rect x="52" y="244" width="300" height="74" rx="18" fill="#111C2D" stroke="#1E293B"/>
+  <text x="80" y="277" fill="#6EE7B7" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700">GPU Memory</text>
+  <text x="80" y="303" fill="white" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="28" font-weight="700">-50%</text>
+
+  <rect x="376" y="244" width="320" height="74" rx="18" fill="#111C2D" stroke="#1E293B"/>
+  <text x="404" y="277" fill="#6EE7B7" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700">Inference Speed</text>
+  <text x="404" y="303" fill="white" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="28" font-weight="700">+37.5%</text>
+
+  <rect x="720" y="244" width="428" height="74" rx="18" fill="#111C2D" stroke="#1E293B"/>
+  <text x="748" y="277" fill="#6EE7B7" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700">Fraud Photos Blocked</text>
+  <text x="748" y="303" fill="white" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="28" font-weight="700">95%</text>
+
+  <text x="52" y="386" fill="#E2E8F0" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="26" font-weight="600">Flask · LangGraph · BLIP · CLIP · GPT-4o-mini · Supabase</text>
+  <text x="52" y="440" fill="#64748B" font-family="Segoe UI, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="500">Multi-agent workflow · validation pipeline · metadata-based fraud prevention</text>
+
+  <path d="M978 104L1032 158L1108 82" stroke="#34D399" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="968" y="70" width="180" height="118" rx="24" stroke="#1F3B33" stroke-width="8"/>
+  <circle cx="1028" cy="392" r="46" fill="#16352C"/>
+  <circle cx="1094" cy="340" r="30" fill="#1F2937"/>
+  <circle cx="1140" cy="404" r="18" fill="#F59E0B"/>
+</svg>
