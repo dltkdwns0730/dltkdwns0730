@@ -9,7 +9,6 @@
 | | |
 |---|---|
 | 이름 | 이상준 |
-| 연락처 | 010-3632-3972 |
 | 이메일 | [dltkdwns0730@gmail.com](mailto:dltkdwns0730@gmail.com) |
 
 ---
